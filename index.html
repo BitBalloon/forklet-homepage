@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="google-site-verification" content="OcVsypKLncYySqcWaENi7-zeRXTOCqQ8-z1xhhBVkwc" />
+        <title>Forklet - Fork any website, Great for rapid front-end prototyping!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/ccelkolhdkjogedoamdjfmfebiepccgc">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="main">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+
+        <div class="row">
+
+            <div class="large-6 columns">
+                <img src="img/fork.png" alt="Forklet" class="fork-img">
+            </div>
+
+            <div class="large-6 columns">
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <img src="img/forklet.png" alt="Forklet" class="forklet-icon">
+                        <h1 class="main-title">Forklet</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p class="description">Install the chrome extension and click the Forklet <img src="img/forklet.png"/>  icon to clone any webpage and edit its text, images & CSS.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <button onclick="chrome.webstore.install()" class="large button expand" href="http://5c4cf848f6454dc02ec8-c49fe7e7355d384845270f4a7a0a7aa1.r53.cf2.rackcdn.com/b9579525-b8d8-4ba3-8aff-b91f5527dbd9/extension.crx"><span>+</span> Add to Chrome</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <a href="https://github.com/BitBalloon/forklet" class="expand button secondary">Github Project <img src="img/github-icon.png" class="github-icon"/></a>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p class=" footer-link"><a href="https://www.bitballoon.com">Powered by BitBalloon</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+    <script>
+    if (chrome.app.isInstalled) {
+      document.getElementById('install-button').style.display = 'none';
+    }
+    </script>
+
+    </body>
+</html>
