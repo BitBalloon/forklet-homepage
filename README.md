@@ -7,11 +7,8 @@ Forks are published with the [BitBalloon API](https://github.com/BitBalloon/bitb
 
 ## Quick start
 
-Choose one of the following options:
-
-1. Download the chrome extension form Forklet.com
-2. Start Forking stuff!
-
+1. Download the chrome extension from Forklet.com
+2. Click the extension icon to start Forking stuff!
 
 ## Features
 
